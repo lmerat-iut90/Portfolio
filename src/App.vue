@@ -1,9 +1,9 @@
-<template>
-  <div id="app">
-      <NavBar></NavBar>
-    <img alt="Vue logo" src="./assets/Photo.jpg" height="200">
 
-  </div>
+<template>
+    <div id="app">
+        <NavBar />
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>

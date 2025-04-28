@@ -1,17 +1,15 @@
 <template>
     <nav>
-      <div>
-          <router-link :to="{name:'about'}"><p>À propos de moi</p></router-link>
-          <router-link :to="{name:'travail'}"><p>Mon travail</p></router-link>
-          <router-link :to="{name:'contact'}"><p>Contact</p></router-link>
-      </div>
-
+        <div>
+            <router-link :to="{name:'about'}">À propos de moi</router-link>
+            <router-link :to="{name:'work'}">Mon travail</router-link>
+            <router-link :to="{name:'contact'}">Contact</router-link>
+        </div>
     </nav>
 </template>
 
-
 <script>
 export default {
-    name: 'NavBar',
+    name: 'NavBar'
 }
 </script>
