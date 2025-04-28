@@ -1,6 +1,9 @@
 <template>
   <div>
-    <p>hfiezgfi</p>
+      <h1>Contact</h1>
+
+      <p>Tél : 07 87 35 60 48</p>
+      <p>E-Mail : leslie.merat@edu.univ-fcomte.fr</p>
   </div>
 </template>
 
