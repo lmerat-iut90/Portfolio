@@ -1,7 +1,6 @@
 
 <template>
     <div id="app">
-        <img alt="Vue logo" src="./assets/Photo.jpg" style="width: 200px; height: auto;">
         <NavBar />
         <router-view></router-view>
     </div>
@@ -20,7 +19,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
