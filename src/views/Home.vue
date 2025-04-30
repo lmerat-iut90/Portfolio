@@ -3,14 +3,26 @@
         <h1>Portfolio de Leslie MERAT</h1>
         <h2>Bac +2 en BUT informatique</h2>
         <div class="content-wrapper">
-            <router-link to="/about" class="image-link">
+            <router-link to="/about" >
                 <img alt="Leslie MERAT" src="../assets/Photo.jpg" class="profile-image clickable-image">
             </router-link>
 
+
             <div class="text-content">
+                <router-link to="/work" >
+                    <img alt="Projets" src="../assets/codesourcelignes.jpg" class="profile-image2 clickable-image">
+                </router-link>
 
             </div>
+
         </div>
+        <div class="bottom">
+            <router-link to="/contact">
+                <img alt="Leslie MERAT" src="../assets/contact.png" class="profile-image3 clickable-image">
+            </router-link>
+        </div>
+
+
     </div>
 </template>
 
@@ -33,15 +45,26 @@ export default {
     gap: 3rem;
 }
 
-.image-link {
-    flex-shrink: 0;
-}
+
 
 .profile-image {
     width: 400px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.profile-image2 {
+    width: 1000px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.profile-image3 {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .clickable-image {
@@ -56,6 +79,11 @@ export default {
 
 .text-content {
     max-width: 600px;
+}
+.bottom {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 100px;
 }
 
 h1 {

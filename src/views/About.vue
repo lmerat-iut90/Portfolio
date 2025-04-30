@@ -7,60 +7,117 @@
           </div>
       </div>
       <h2>Présentation</h2>
+      <div></div>
 
       <h2>Mes compétences</h2>
       <div class="content-box">
-          <div class="language">
-              <p style="font-weight: bold;">Langages</p>
-              <div class="content-sub-box">
-                  <div class="context-group">
-                      <p>Python </p>
+          <div class="content">
+              <div class="content-little-box">
+                  <p style="font-weight: bold;">Langages</p>
+                  <div class="content-sub-box">
+                      <div class="context-group">
+                          <p>Python </p>
+                      </div>
+                      <div class="context-group">
+                          <p>Java</p>
+                      </div>
+                      <div class="context-group">
+                          <p>C</p>
+                      </div>
                   </div>
-                  <div class="context-group">
-                      <p>Java</p>
+                  <div class="content-sub-box">
+                      <div class="context-group">
+                          <p>HTML</p>
+                      </div>
+                      <div class="context-group">
+                          <p>CSS</p>
+                      </div>
                   </div>
-                  <div class="context-group">
-                      <p>C</p>
-                  </div>
-                  <div class="context-group">
-                      <p>C ++</p>
-                  </div>
-              </div>
-              <div class="content-sub-box">
-                  <div class="context-group">
-                      <p>HTML</p>
-                  </div>
-                  <div class="context-group">
-                      <p>CSS</p>
-                  </div>
-                  <div class="context-group">
-                      <p>JavaScript</p>
+                  <div class="content-sub-box">
+                      <div class="context-group">
+                          <p>JavaScript</p>
+                      </div>
+                      <div class="context-group">
+                          <p>C ++</p>
+                      </div>
                   </div>
               </div>
           </div>
 
-          <div class="language">
-              <p style="font-weight: bold;">Bases de données</p>
-              <div class="content-sub-box">
-                  <div class="context-group">
-                      <p>SQL Server</p>
+          <div class="content">
+              <div class="content-little-box">
+                  <p style="font-weight: bold;">Bases de données</p>
+                  <div class="content-sub-box">
+                      <div class="context-group">
+                          <p>SQL Server</p>
+                      </div>
+                      <div class="context-group">
+                          <p>MySQL</p>
+                      </div>
                   </div>
-                  <div class="context-group">
-                      <p>MySQL</p>
+                  <div class="content-sub-box">
+                      <div class="context-group">
+                          <p>PostgreSQL</p>
+                      </div>
+                      <div class="context-group">
+                          <p>MongoDB</p>
+                      </div>
                   </div>
               </div>
-              <div class="content-sub-box">
-                  <div class="context-group">
-                      <p>PostgreSQL</p>
+          </div>
+
+          <div class="content">
+              <div class="content-little-box">
+                  <p style="font-weight: bold;">Frameworks</p>
+                  <div class="content-sub-box">
+                      <div class="context-group">
+                          <p>Bootstrap</p>
+                      </div>
+                      <div class="context-group">
+                          <p>Flask</p>
+                      </div>
                   </div>
-                  <div class="context-group">
-                      <p>MongoDB</p>
+                  <div class="content-sub-box">
+                      <div class="context-group">
+                          <p>Vue.JS</p>
+                      </div>
+                      <div class="context-group">
+                          <p>Express</p>
+                      </div>
+                  </div>
+                  <div class="content-sub-box">
+                      <div class="context-group">
+                          <p>Tailwind</p>
+                      </div>
                   </div>
               </div>
           </div>
 
       </div>
       <h2>Mon parcours</h2>
+      <div class="content-box">
+          <div class="content2">
+              <div class="content-little-box">
+                  <p style="font-weight: bold;">Bac général (2023)</p>
+                  <div>
+                      <p>Spécialitées : </p>
+                      <p>NSI (Numérique et Science de l'informatique)</p>
+                      <p>Mathématiques</p>
+                      <p>Physique-Chimie</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="content2">
+              <div class="content-little-box">
+                  <p style="font-weight: bold;">BUT Informatique (2023-2026)</p>
+                  <div>
+                      <p>Parcours : </p>
+                      <p>Réalisation d'applications : conception, développement, validation</p>
+                  </div>
+              </div>
+          </div>
+      </div>
 
   </div>
 </template>
@@ -84,6 +141,10 @@ export default {
     align-items: center;
     padding-left: 250px;
 }
+.content-little-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
 .content-sub-box {
     display: flex;
     justify-content: center;
@@ -100,10 +161,19 @@ export default {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.language {
+.content-little-box {
     padding : 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 225px;
+    height: 225px;
+    color : black;
+}
+.content {
+    padding-left: 200px;
+}
+.content2 {
+    padding-left: 350px;
 }
 .text-content {
     padding-left: 150px;
@@ -118,9 +188,10 @@ h1 {
 h2 {
     color: #1F618D;
     font-weight: normal;
-    text-align: left;
+    text-align: center;
     margin: 0;
-    padding-left: 50px;
+    padding-left: 150px;
     padding-top: 40px;
+    padding-bottom: 20px;
 }
 </style>
