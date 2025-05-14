@@ -1,7 +1,7 @@
 <template>
     <div class="home-container">
-        <h1>Portfolio de Leslie MERAT</h1>
-        <h2>Bac +2 en BUT informatique</h2>
+        <h1>Leslie MERAT</h1>
+        <h2>Étudiante en BUT informatique</h2>
         <div class="content-wrapper">
             <router-link to="/about" >
                 <img alt="Leslie MERAT" src="../assets/Photo.jpg" class="profile-image clickable-image">

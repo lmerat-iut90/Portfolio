@@ -1,6 +1,7 @@
 <template>
     <nav class="navbar">
         <div class="nav-links">
+            <router-link :to="{name:'home'}">Accueil</router-link>
             <router-link :to="{name:'about'}">À propos de moi</router-link>
             <router-link :to="{name:'work'}">Mes projets</router-link>
             <router-link :to="{name:'contact'}">Contact</router-link>
@@ -16,8 +17,9 @@ export default {
 
 <style scoped>
 .navbar {
-    background-color: black;
+    background-color: #2c3e50;
     padding: 1rem 0;
+    border-radius: 10px;
 }
 
 .nav-links {

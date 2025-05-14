@@ -7,7 +7,9 @@
           </div>
       </div>
       <h2>Présentation</h2>
-      <div></div>
+      <div class="presentation">
+          <p>Bonjour ! Je m'appelle Leslie MERAT, je suis actuellement en deuxième année de BUT informatique.</p>
+      </div>
 
       <h2>Mes compétences</h2>
       <div class="content-box">
@@ -32,6 +34,9 @@
                       <div class="context-group">
                           <p>CSS</p>
                       </div>
+                      <div class="context-group">
+                          <p>Kotlin</p>
+                      </div>
                   </div>
                   <div class="content-sub-box">
                       <div class="context-group">
@@ -39,6 +44,9 @@
                       </div>
                       <div class="context-group">
                           <p>C ++</p>
+                      </div>
+                      <div class="context-group">
+                          <p>Swift</p>
                       </div>
                   </div>
               </div>
@@ -129,6 +137,10 @@ export default {
 </script>
 
 <style scoped>
+
+.presentation {
+    color : black;
+}
 .content-wrapper {
     display: flex;
     align-items: center;
@@ -170,10 +182,10 @@ export default {
     color : black;
 }
 .content {
-    padding-left: 200px;
+    padding-left: 165px;
 }
 .content2 {
-    padding-left: 350px;
+    padding-left: 300px;
 }
 .text-content {
     padding-left: 150px;
@@ -190,7 +202,6 @@ h2 {
     font-weight: normal;
     text-align: center;
     margin: 0;
-    padding-left: 150px;
     padding-top: 40px;
     padding-bottom: 20px;
 }

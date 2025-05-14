@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Exemple de timeline
+https://freefrontend.com/css-timelines/page/7/
