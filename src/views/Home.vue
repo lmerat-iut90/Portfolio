@@ -10,7 +10,7 @@
 
             <div class="text-content">
                 <router-link to="/work" >
-                    <img alt="Projets" src="../assets/codesourcelignes.jpg" class="profile-image2 clickable-image">
+                    <img alt="Projets" src="../assets/code.jpeg" class="profile-image2 clickable-image">
                 </router-link>
 
             </div>
@@ -54,7 +54,7 @@ export default {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .profile-image2 {
-    width: 1000px;
+    width: 730px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

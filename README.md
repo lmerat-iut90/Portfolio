@@ -25,3 +25,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Exemple de timeline
 https://freefrontend.com/css-timelines/page/7/
+
+### Hébergement GitHub Pages
+https://pages.github.com/
