@@ -3,6 +3,7 @@
     <div id="app">
         <NavBar />
         <router-view></router-view>
+        <FooterVue/>
     </div>
 </template>
 
@@ -10,11 +11,13 @@
 
 
 import NavBar from "@/components/NavBar.vue";
+import FooterVue from "@/components/FooterVue.vue";
 
 export default {
   name: 'App',
   components: {
-    NavBar
+      FooterVue,
+      NavBar
   }
 }
 </script>
