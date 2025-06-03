@@ -7,61 +7,73 @@
               <div class="content-box">
                   <div class="box">
                       <div class="little-box">
-                          <div class="title">
-                              <p>UE1</p>
-                          </div>
-                          <div class="content">
-                              <p>Réaliser un développement d'application</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="box">
-                      <div class="little-box">
-                          <div class="title">
-                              <p>UE2</p>
-                          </div>
-                          <div class="content">
-                              <p>Optimiser des applications</p>
+                          <div class="center">
+                              <div class="title">
+                                  <p>UE1</p>
+                              </div>
+                              <div class="content">
+                                  <p>Réaliser un développement d'application</p>
+                              </div>
                           </div>
                       </div>
                   </div>
                   <div class="box">
                       <div class="little-box">
-                          <div class="title">
-                              <p>UE3</p>
-                          </div>
-                          <div class="content">
-                              <p>Administrer des systèmes informatiques communicants complexes</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="box">
-                      <div class="little-box">
-                          <div class="title">
-                              <p>UE4</p>
-                          </div>
-                          <div class="content">
-                              <p>Gérer des données de l'information</p>
+                          <div class="center">
+                              <div class="title">
+                                  <p>UE2</p>
+                              </div>
+                              <div class="content">
+                                  <p>Optimiser des applications</p>
+                              </div>
                           </div>
                       </div>
                   </div>
                   <div class="box">
                       <div class="little-box">
-                          <div class="title">
-                              <p>UE5</p>
-                          </div>
-                          <div class="content">
-                              <p>Conduire un projet</p>
+                          <div class="center">
+                              <div class="title">
+                                  <p>UE3</p>
+                              </div>
+                              <div class="content">
+                                  <p>Administrer des systèmes informatiques communicants complexes</p>
+                              </div>
                           </div>
                       </div>
                   </div>
                   <div class="box">
                       <div class="little-box">
-                          <div class="title">
-                              <p>UE6</p>
+                          <div class="center">
+                              <div class="title">
+                                  <p>UE4</p>
+                              </div>
+                              <div class="content">
+                                  <p>Gérer des données de l'information</p>
+                              </div>
                           </div>
-                          <div class="content">
-                              <p>Collaborer au sein d'une équipe informatique</p>
+                      </div>
+                  </div>
+                  <div class="box">
+                      <div class="little-box">
+                          <div class="center">
+                              <div class="title">
+                                  <p>UE5</p>
+                              </div>
+                              <div class="content">
+                                  <p>Conduire un projet</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="box">
+                      <div class="little-box">
+                          <div class="center">
+                              <div class="title">
+                                  <p>UE6</p>
+                              </div>
+                              <div class="content">
+                                  <p>Collaborer au sein d'une équipe informatique</p>
+                              </div>
                           </div>
                       </div>
                   </div>
@@ -95,6 +107,7 @@
     height: 200px;
     align-items: center;
     justify-content: center;
+    border-radius: 360px;
 }
 
 .little-box:hover{
@@ -109,6 +122,20 @@
 
 .content{
     color: white;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.content p, .title p {
+    margin: 0;
+    padding: 4px 0;
 }
 
 h1 {

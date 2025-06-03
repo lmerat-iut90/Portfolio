@@ -103,7 +103,7 @@
 
       </div>
       <h2>Mon parcours</h2>
-      <div class="content-box">
+      <div class="content-box2">
           <div class="content2">
               <div class="content-little-box">
                   <p style="font-weight: bold;">Bac général (2023)</p>
@@ -204,5 +204,11 @@ h2 {
     margin: 0;
     padding-top: 40px;
     padding-bottom: 20px;
+}
+.content-box2 {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-bottom: 200px;
 }
 </style>
