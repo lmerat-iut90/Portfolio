@@ -8,7 +8,7 @@
       </div>
       <h2>Présentation</h2>
       <div class="presentation">
-          <p>Bonjour ! Je m'appelle Leslie MERAT, je suis actuellement en deuxième année de BUT informatique.</p>
+          <p>Bonjour ! Je m'appelle Leslie MERAT, je suis actuellement en deuxième année de BUT informatique à l'IUT Nord Franche-Comté.</p>
       </div>
 
       <h2>Mes compétences</h2>
