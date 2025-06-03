@@ -8,7 +8,7 @@
       </div>
       <h2>Présentation</h2>
       <div class="presentation">
-          <p>Bonjour ! Je m'appelle Leslie MERAT, je suis actuellement en deuxième année de BUT informatique à l'IUT Nord Franche-Comté.</p>
+          <p>Bonjour ! Je m'appelle Leslie MERAT, je suis actuellement en deuxième année de BUT informatique à l'IUT Nord Franche-Comté. Passionnée par le développement logiciel et des technologies web, je me spécialise dans la conception d’applications robustes, performantes et adaptées aux besoins des utilisateurs.</p>
       </div>
 
       <h2>Mes compétences</h2>
